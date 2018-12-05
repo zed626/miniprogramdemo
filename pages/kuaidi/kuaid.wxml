@@ -1,0 +1,11 @@
+<view class="container">
+  <input placeholder="请输入运单号" bindinput="input" />
+  <button type="primary"  bindtap="btnClick"> 查询 </button>
+
+  <scroll-view scroll-y="true" style="height: 200px;" >
+      <view wx:for="{{expressInfo}}" wx:key="{{expressInfo}}" >
+        {{index}}-{{item.name}}[{{item.writer}}]
+      </view>
+   </scroll-view>
+
+</view>

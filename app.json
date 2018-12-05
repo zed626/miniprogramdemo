@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/firstPage/first",
+    "pages/kuaidi/kuaid",
+    "pages/user/user",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wechat",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "color": "#BFBFBF",
+    "selectedColor": "#E64340",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home-off.png",
+        "selectedIconPath": "images/home-on.png"
+      },
+      {
+        "pagePath": "pages/firstPage/first",
+        "text": "展示",
+        "iconPath": "images/appoint-off.png",
+        "selectedIconPath": "images/appoint-on.png"
+      },
+      {
+        "pagePath": "pages/kuaidi/kuaid",
+        "text": "快递",
+        "iconPath": "images/food-off.png",
+        "selectedIconPath": "images/food-on.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人信息",
+        "iconPath": "images/my-off.png",
+        "selectedIconPath": "images/my-on.png"
+      }
+    ]
+  },
+  "debug": true
+}
